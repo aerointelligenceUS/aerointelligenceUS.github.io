@@ -83,11 +83,16 @@ nav a {
 }
 
 .hero-content {
-  max-width: 820px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
 }
 
  .hero-plane {
-  margin-top: 45px;
+  margin-top: 0;
   width: 100%;
   overflow: hidden;
   border-radius: 18px;
@@ -300,6 +305,7 @@ footer {
 
 <section class="hero">
   <div class="container hero-content">
+    <div class="hero-text">
 
     <div class="hero-label">
       Aerospace Quality & Compliance Consulting
@@ -319,6 +325,7 @@ footer {
       <a class="button primary" href="#contact">Start a Conversation</a>
       <a class="button secondary" href="#services">Explore Our Services</a>
     </div>
+      </div>
 <div class="hero-plane">
   <img src="plane.jpg" alt="Aircraft">
 </div>
